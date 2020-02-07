@@ -17,7 +17,7 @@ Release 1.8
 Changes in this version include:
 
 - New Features
-  o TEXT-169: Add helper factory method org.apache.commons.text.StringSubstitutor.createInterpolator(). Thanks to Gary Gregory.
+  o TEXT-169: Add helper factory method StringSubstitutor.createInterpolator(). Thanks to Gary Gregory.
   o TEXT-170: Add String lookup for host names and IP addresses (DnsStringLookup). Thanks to Gary Gregory.
     
 - Fixed Bugs
@@ -111,7 +111,7 @@ CHANGES
 
 o TEXT-144:  Add the resource string bundle string lookup to the default set of lookups
 o TEXT-145:  Add StringLookupFactory methods for the URL encoder and decoder string lookups
-o TEXT-146:  org.apache.commons.text.lookup.StringLookupFactory.interpolatorStringLookup() should reuse a singleton instance
+o TEXT-146:  StringLookupFactory.interpolatorStringLookup() should reuse a singleton instance
 o TEXT-147:  Add a Base64 encoder string lookup.
 
 Historical list of changes: https://commons.apache.org/proper/commons-text/changes-report.html
@@ -146,7 +146,7 @@ o TEXT-135:  Add a script string lookup.
 o TEXT-136:  Add a file string lookup.
 o TEXT-137:  Add a URL string lookup.
 o TEXT-140:  Add a Base64 string lookup.
-o TEXT-141:  Add org.apache.commons.text.lookup.StringLookupFactory.resourceBundleStringLookup(String).
+o TEXT-141:  Add StringLookupFactory.resourceBundleStringLookup(String).
 o TEXT-142:  Add URL encoder and decoder string lookups.
 o TEXT-143:  Add constant string lookup like the one in Apache Commons Configuration.
 
@@ -189,7 +189,7 @@ o TEXT-123:  WordUtils.wrap throws StringIndexOutOfBoundsException when wrapLeng
                 
 Changes:
 o TEXT-121:  Update Java requirement from version 7 to 8. Thanks to pschumacher.
-o TEXT-122:  Allow full customization with new API org.apache.commons.text.lookup.StringLookupFactory.interpolatorStringLookup(Map<String, StringLookup>, StringLookup, boolean).
+o TEXT-122:  Allow full customization with new API StringLookupFactory.interpolatorStringLookup(Map<String, StringLookup>, StringLookup, boolean).
 
 =============================================================================
 

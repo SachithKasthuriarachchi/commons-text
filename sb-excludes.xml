@@ -18,18 +18,18 @@
 <FindBugsFilter>
 
   <Match>
-    <Class name="org.apache.commons.text.ExtendedMessageFormat" />
+    <Class name="org.apache.android.commons.text.ExtendedMessageFormat" />
     <Bug code="UR" />
   </Match>
 
   <Match>
-    <Class name="org.apache.commons.text.StrTokenizer" />
+    <Class name="org.apache.android.commons.text.StrTokenizer" />
     <Method name="clone" />
     <Bug code="CN" />
   </Match>
 
   <Match>
-    <Class name="org.apache.commons.text.StringTokenizer" />
+    <Class name="org.apache.android.commons.text.StringTokenizer" />
     <Method name="clone" />
     <Bug code="CN" />
   </Match>

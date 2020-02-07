@@ -48,7 +48,8 @@ The <action> type attribute can be add,update,fix,remove.
   <release version="1.8" date="2019-08-30" description="Release 1.8">
     <action issue="TEXT-167" type="fix" dev="ggregory" due-to="Larry West">commons-text web page missing "RELEASE-NOTES-1.7.txt"</action>
     <action issue="TEXT-168" type="fix" dev="ggregory" due-to="luksan47">(doc) Fixed wrong value for Jaro-Winkler example #117</action>
-    <action issue="TEXT-169" type="add" dev="ggregory" due-to="Gary Gregory">Add helper factory method org.apache.commons.text.StringSubstitutor.createInterpolator().</action>
+    <action issue="TEXT-169" type="add" dev="ggregory" due-to="Gary Gregory">Add helper factory method
+        org.apache.android.commons.text.StringSubstitutor.createInterpolator().</action>
     <action issue="TEXT-170" type="add" dev="ggregory" due-to="Gary Gregory">Add String lookup for host names and IP addresses (DnsStringLookup).</action>
     <action issue="TEXT-171" type="fix" dev="ggregory" due-to="Gary Gregory">StringLookupFactory.addDefaultStringLookups(Map) does not convert keys to lower case.</action>
     <action                  type="update" dev="ggregory" due-to="Gary Gregory">Expand Javadoc for StringSubstitutor and friends.</action>
@@ -77,7 +78,8 @@ The <action> type attribute can be add,update,fix,remove.
   <release version="1.6" date="2018-10-12" description="Release 1.6">
     <action issue="TEXT-144" type="update" dev="ggregory">Add the resource string bundle string lookup to the default set of lookups</action>
     <action issue="TEXT-145" type="update" dev="ggregory">Add StringLookupFactory methods for the URL encoder and decoder string lookups</action>
-    <action issue="TEXT-146" type="update" dev="ggregory">org.apache.commons.text.lookup.StringLookupFactory.interpolatorStringLookup() should reuse a singleton instance</action>
+    <action issue="TEXT-146" type="update" dev="ggregory">org.apache.android.commons.text.lookup.StringLookupFactory.interpolatorStringLookup()
+        should reuse a singleton instance</action>
     <action issue="TEXT-147" type="update" dev="ggregory">Add a Base64 encoder string lookup.</action>
   </release>
 
@@ -93,7 +95,8 @@ The <action> type attribute can be add,update,fix,remove.
     <action issue="TEXT-136" type="add" dev="ggregory">Add a file string lookup.</action>
     <action issue="TEXT-137" type="add" dev="ggregory">Add a URL string lookup.</action>
     <action issue="TEXT-140" type="add" dev="ggregory">Add a Base64 string lookup.</action>
-    <action issue="TEXT-141" type="add" dev="ggregory">Add org.apache.commons.text.lookup.StringLookupFactory.resourceBundleStringLookup(String).</action>
+    <action issue="TEXT-141" type="add" dev="ggregory">Add
+        org.apache.android.commons.text.lookup.StringLookupFactory.resourceBundleStringLookup(String).</action>
     <action issue="TEXT-142" type="add" dev="ggregory">Add URL encoder and decoder string lookups.</action>
     <action issue="TEXT-143" type="add" dev="ggregory">Add constant string lookup like the one in Apache Commons Configuration.</action>
   </release>
@@ -102,7 +105,9 @@ The <action> type attribute can be add,update,fix,remove.
     <action issue="TEXT-120" type="fix" dev="pschumacher">StringEscapeUtils#unescapeJson does not unescape double quotes and forward slash</action>
     <action issue="TEXT-119" type="fix" dev="pschumacher">Remove mention of SQL escaping from user guide</action>
     <action issue="TEXT-121" type="update" dev="ggregory" due-to="pschumacher">Update Java requirement from version 7 to 8.</action>
-    <action issue="TEXT-122" type="update" dev="ggregory">Allow full customization with new API org.apache.commons.text.lookup.StringLookupFactory.interpolatorStringLookup(Map&lt;String, StringLookup>, StringLookup, boolean).</action>    
+    <action issue="TEXT-122" type="update" dev="ggregory">Allow full customization with new API
+        org.apache.android.commons.text.lookup.StringLookupFactory.interpolatorStringLookup(Map&lt;String,
+        StringLookup>, StringLookup, boolean).</action>
     <action issue="TEXT-123" type="fix" dev="ggregory" due-to="Takanobu Asanuma">WordUtils.wrap throws StringIndexOutOfBoundsException when wrapLength is Integer.MAX_VALUE.</action>   
   </release>
 

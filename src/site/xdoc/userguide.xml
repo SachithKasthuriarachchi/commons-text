@@ -96,13 +96,13 @@ limitations under the License.
       </p>
       <ul>
         <li>Commons Text &gt;= 1.8: 
-          <a href="http://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/StringSubstitutor.html">org.apache.commons.text.StringSubstitutor.createInterpolator()</a></li>
+          <a href="http://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/StringSubstitutor.html">org.apache.android.commons.text.StringSubstitutor.createInterpolator()</a></li>
         <li>Commons Text &lt; 1.8: 
           <a href="http://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/StringSubstitutor.html">new StringSubstitutor(StringLookupFactory.INSTANCE.interpolatorStringLookup())</a></li>
       </ul>
       <p>
         The available substitutions are defined in 
-        <a href="http://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/lookup/StringLookupFactory.html">org.apache.commons.text.lookup.StringLookupFactory</a>:
+        <a href="http://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/lookup/StringLookupFactory.html">org.apache.android.commons.text.lookup.StringLookupFactory</a>:
       </p>
       </subsection>
 
